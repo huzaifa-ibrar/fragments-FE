@@ -10,7 +10,7 @@ const pass = process.env.REACT_APP_BASIC_PASS || 'password';
 if (!user || !pass) {
     console.error('Authentication credentials are not set properly');
 }
-
+// Log the configuration being used
 console.log('Auth configuration:', {
     authType,
     user,
